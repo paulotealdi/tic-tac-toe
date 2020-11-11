@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div id="title-wrapper">
+        <h1>Tic Tac Toe</h1>
+        <span>Made by <a href="https://www.github.com/paulotealdi" target="_blank">Paulo Tealdi</a></span>
+        <span>for <a href="https://www.theodinproject.com" target="_blank">The Odin Project</a></span>
+    </div>
+
+    <div id="menu">
+        <div>
+            <label for="player-one-name">Player One: </label>
+            <input type="text" id="player-one-name">
+        </div>
+        
+        <div id="player-two-wrapper">
+            <label for="player-two-name">Player Two: </label>
+            <input type="text" id="player-two-name">
+        </div>
+
+        <div>
+            <input type="checkbox" id="AI-player">
+            <label for="AI-player">Play against AI</label>
+        </div>
+
+        <button type="button" onclick="startGame()">Start Game</button>
+    </div>
+
+    <div id="gameboard"></div>
+    <script src="main.js"></script>
+</body>
+</html>
