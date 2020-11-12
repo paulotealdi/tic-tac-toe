@@ -29,7 +29,7 @@ function makePlayer(letter, name) {
 }
 
 function makeAI() {
-    return Object.assign({}, makePlayer('o', 'Artificial Inteligence'), {
+    return Object.assign({}, makePlayer('o', 'Artificial Intelligence'), {
         isAI: true
     })
 }
